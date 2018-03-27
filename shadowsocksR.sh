@@ -44,8 +44,8 @@ xsalsa20
 rc4-md5
 )
 # Reference URL:
-# https://github.com/shadowsocksr-rm/shadowsocks-rss/blob/master/ssr.md
-# https://github.com/shadowsocksrr/shadowsocksr/commit/a3cf0254508992b7126ab1151df0c2f10bf82680
+# https://github.com/zhongziso/shadowsocks-rss/blob/master/ssr.md
+# https://github.com/zhongziso/shadowsocksr/commit/a3cf0254508992b7126ab1151df0c2f10bf82680
 # Protocol
 protocols=(
 origin
@@ -326,7 +326,7 @@ download_files(){
         exit 1
     fi
     # Download ShadowsocksR file
-    if ! wget --no-check-certificate -O shadowsocksr-3.2.1.tar.gz https://github.com/shadowsocksrr/shadowsocksr/archive/3.2.1.tar.gz; then
+    if ! wget --no-check-certificate -O shadowsocksr-3.2.1.tar.gz https://github.com/zhongziso/shadowsocksr/archive/3.2.1.tar.gz; then
         echo -e "[${red}Error${plain}] Failed to download ShadowsocksR file!"
         exit 1
     fi
